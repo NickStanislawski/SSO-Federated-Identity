@@ -1,0 +1,11 @@
+{
+  "lab": true,
+  "redirect_uris": ["http://127.0.0.1:8001/callback"],
+  "pkce": "S256",
+  "algorithm": "RS256",
+  "required_claims": ["sub", "groups", "nonce"],
+  "entity_id": "urn:lab:sp",
+  "acs": "http://127.0.0.1:8002/acs",
+  "metadata_acs": "http://127.0.0.1:8002/acs",
+  "role_mapping": {"employees": "reader", "finance": "finance", "admins": "admin"}
+}

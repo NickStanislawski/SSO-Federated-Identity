@@ -1,0 +1,142 @@
+[
+  {
+    "timestamp": "2026-10-12T09:54:34.933368+00:00",
+    "application": "oidc_sp",
+    "path": "/login",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.001092+00:00",
+    "application": "oidc_sp",
+    "path": "/callback",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.016422+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 200,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.016422+00:00",
+    "application": "oidc_sp",
+    "path": "/logout",
+    "status": 403,
+    "category": "access_denial"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.016422+00:00",
+    "application": "oidc_sp",
+    "path": "/logout",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.032600+00:00",
+    "application": "oidc_sp",
+    "path": "/",
+    "status": 200,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.034644+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 401,
+    "category": "access_denial"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.047966+00:00",
+    "application": "oidc_sp",
+    "path": "/login",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.113722+00:00",
+    "application": "oidc_sp",
+    "path": "/callback",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.130204+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 200,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.145998+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 401,
+    "category": "access_denial"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.232071+00:00",
+    "application": "oidc_sp",
+    "path": "/login",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.297693+00:00",
+    "application": "oidc_sp",
+    "path": "/callback",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.312800+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 200,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.331069+00:00",
+    "application": "oidc_sp",
+    "path": "/callback",
+    "status": 400,
+    "category": "failure"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.372604+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 403,
+    "category": "access_denial"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.464979+00:00",
+    "application": "oidc_sp",
+    "path": "/protected",
+    "status": 401,
+    "category": "access_denial"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.397797+00:00",
+    "application": "saml_sp",
+    "path": "/login",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.464979+00:00",
+    "application": "saml_sp",
+    "path": "/acs",
+    "status": 302,
+    "category": "success"
+  },
+  {
+    "timestamp": "2026-10-12T09:54:35.464979+00:00",
+    "application": "saml_sp",
+    "path": "/protected",
+    "status": 200,
+    "category": "success"
+  }
+]

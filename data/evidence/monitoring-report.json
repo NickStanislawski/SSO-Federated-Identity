@@ -1,0 +1,50 @@
+{
+  "events": 20,
+  "categories": {
+    "success": 14,
+    "access_denial": 5,
+    "failure": 1
+  },
+  "applications": {
+    "oidc_sp": 17,
+    "saml_sp": 3
+  },
+  "troubleshooting": [
+    {
+      "application": "oidc_sp",
+      "path": "/logout",
+      "status": 403,
+      "hint": "Inspect session and group mapping"
+    },
+    {
+      "application": "oidc_sp",
+      "path": "/protected",
+      "status": 401,
+      "hint": "Inspect session and group mapping"
+    },
+    {
+      "application": "oidc_sp",
+      "path": "/protected",
+      "status": 401,
+      "hint": "Inspect session and group mapping"
+    },
+    {
+      "application": "oidc_sp",
+      "path": "/callback",
+      "status": 400,
+      "hint": "Inspect binding, signature and claims"
+    },
+    {
+      "application": "oidc_sp",
+      "path": "/protected",
+      "status": 403,
+      "hint": "Inspect session and group mapping"
+    },
+    {
+      "application": "oidc_sp",
+      "path": "/protected",
+      "status": 401,
+      "hint": "Inspect session and group mapping"
+    }
+  ]
+}

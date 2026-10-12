@@ -1,0 +1,13 @@
+review/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+!data/evidence/lab-cert.pem
+__pycache__/
+*.pyc
+.venv/
+.local/
+data/live/
+review/

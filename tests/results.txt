@@ -1,0 +1,42 @@
+test_binding_mismatch (test_federation.AutomationTests.test_binding_mismatch) ... ok
+test_near_expiry (test_federation.AutomationTests.test_near_expiry) ... ok
+test_report_categories (test_federation.AutomationTests.test_report_categories) ... ok
+test_unsafe_redirect (test_federation.AutomationTests.test_unsafe_redirect) ... ok
+test_valid_config (test_federation.AutomationTests.test_valid_config) ... ok
+test_logout_and_session_expiry (test_federation.IntegrationTests.test_logout_and_session_expiry) ... ok
+test_mfa_application_denial (test_federation.IntegrationTests.test_mfa_application_denial) ... ok
+test_oidc_code_pkce_roundtrip (test_federation.IntegrationTests.test_oidc_code_pkce_roundtrip) ... ok
+test_oidc_invalid_state (test_federation.IntegrationTests.test_oidc_invalid_state) ... ok
+test_pkce_and_code_replay (test_federation.IntegrationTests.test_pkce_and_code_replay) ... ok
+test_redirect_mismatch (test_federation.IntegrationTests.test_redirect_mismatch) ... ok
+test_role_denial (test_federation.IntegrationTests.test_role_denial) ... ok
+test_saml_separate_app_roundtrip (test_federation.IntegrationTests.test_saml_separate_app_roundtrip) ... ok
+test_unauthenticated_denied (test_federation.IntegrationTests.test_unauthenticated_denied) ... ok
+test_duplicate_assertion (test_federation.SamlTests.test_duplicate_assertion) ... ok
+test_entity_input (test_federation.SamlTests.test_entity_input) ... ok
+test_expired_assertion (test_federation.SamlTests.test_expired_assertion) ... ok
+test_missing_attributes (test_federation.SamlTests.test_missing_attributes) ... ok
+test_replay (test_federation.SamlTests.test_replay) ... ok
+test_tampered_assertion (test_federation.SamlTests.test_tampered_assertion) ... ok
+test_valid_signed_assertion (test_federation.SamlTests.test_valid_signed_assertion) ... ok
+test_wrong_audience (test_federation.SamlTests.test_wrong_audience) ... ok
+test_wrong_certificate (test_federation.SamlTests.test_wrong_certificate) ... ok
+test_wrong_issuer (test_federation.SamlTests.test_wrong_issuer) ... ok
+test_wrong_recipient (test_federation.SamlTests.test_wrong_recipient) ... ok
+test_wrong_request (test_federation.SamlTests.test_wrong_request) ... ok
+test_audience (test_federation.TokenTests.test_audience) ... ok
+test_expired (test_federation.TokenTests.test_expired) ... ok
+test_group_type (test_federation.TokenTests.test_group_type) ... ok
+test_issuer (test_federation.TokenTests.test_issuer) ... ok
+test_malformed (test_federation.TokenTests.test_malformed) ... ok
+test_mfa_context (test_federation.TokenTests.test_mfa_context) ... ok
+test_missing_groups (test_federation.TokenTests.test_missing_groups) ... ok
+test_nonce (test_federation.TokenTests.test_nonce) ... ok
+test_tampered_signature (test_federation.TokenTests.test_tampered_signature) ... ok
+test_unknown_group (test_federation.TokenTests.test_unknown_group) ... ok
+test_valid_signature_claims (test_federation.TokenTests.test_valid_signature_claims) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 2.436s
+
+OK
